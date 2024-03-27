@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import com.taross.interview.notification.consumer.ServiceProcessor;
 import com.taross.interview.notification.injector.EmailServiceProvider;
 import com.taross.interview.notification.injector.MessageServiceProvider;
+import com.taross.interview.notification.injector.NotificationServiceProvider;
 import com.taross.interview.notification.injector.SmsServiceProvider;
 
 public class NotificationTest {

@@ -89,4 +89,20 @@ public class ArrayMathUtils {
         }
         return -1;
     }
+    
+    /**
+     * This method finds the maximum string in an array of strings and returns it.
+     *
+     * @param arr The array of strings to search.
+     * @return The maximum string in the array.
+     */
+    public static String findMaxString(String[] arr) {
+        String maxString = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i].compareTo(maxString) > 0) {
+                maxString = arr[i];
+            }
+        }
+        return maxString;
+    }
 }
